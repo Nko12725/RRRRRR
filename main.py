@@ -21,7 +21,7 @@ def load_config():
     global CONFIG
     with open('config.json') as config_file:
         CONFIG = json.load(config_file)
-TOKEN = #tokendubotdiscord.gg/cfxdata
+TOKEN = MTMzNjgyNDE4NjEzMTMxNjc0Nw.GgzRGf.W-MZZyfcnv9QVFPWvhRve-EgtqD-qvC2v_GqYA
 @bot.event
 async def on_ready():
     global CONFIG
